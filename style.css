@@ -1,0 +1,103 @@
+.roof {
+    height: 100px;
+    width: 170px;
+    background: #DCE0D9;
+    clip-path: polygon(52% 30%, 0% 100%, 100% 100%);
+    border: 1px solid silver;
+
+}
+.foundation {
+    height: 100px;
+    width: 150px;
+    background: #FBF6EF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid silver;
+    border-left: 1px solid silver;
+}
+.house {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+.window_1 {
+    height: 40px;
+    width: 40px;
+    border-radius: 5%;
+    background: #F8F7FF;
+    flex-shrink: 0;
+    margin-right: 35px;
+    border: 1px solid silver;
+}
+
+.window_2 {
+    height: 40px;
+    width: 40px;
+    border-radius: 5%;
+    background: #F8F7FF;
+    flex-shrink: 0;
+    margin-right: 0px;
+    border: 1px solid silver;
+}
+
+.window_3 {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background: #F8F7FF;
+    margin-top: -150px;
+    border: 1px solid silver;
+    position: absolute;
+}
+
+.footing {
+    height: 15px;
+    width: 155px;
+    border-radius: 5%;
+    background: #DCE0D9;
+    flex-shrink: 0;
+    margin-top: 190px;
+    position: absolute;
+    border: 1px solid silver;
+}
+
+.shutters_1 {
+    height: 7px;
+    width: 44px;
+    border-radius: 5%;
+    background: #DCE0D9;
+    flex-shrink: 0;
+    margin-top: 38px;
+    margin-left: -3px;
+    position: absolute;
+    border: 1px solid silver;
+}
+
+.shutters_2 {
+    height: 7px;
+    width: 44px;
+    border-radius: 5%;
+    background: #DCE0D9;
+    flex-shrink: 0;
+    margin-top: 38px;
+    margin-left: -3px;
+    position: absolute;
+    border: 1px solid silver;
+}
+
+.chimney {
+    position: absolute;
+    height: 50px;
+    width: 20px;
+    top: 40px;
+    right: 20px;
+    background: #D6D2D2;
+    z-index: -1;
+    border: 1px solid silver;
+}
+.wrapper {
+    text-align: center;
+}
